@@ -1,0 +1,19 @@
+package CoreJava;
+
+public class TemporaryEmp  extends Employee{
+	
+double hike = 0.35d;
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+TemporaryEmp t = new TemporaryEmp();
+PermanentEmp p = new PermanentEmp();
+System.out.println(t.hike);
+System.out.println(t.salary);
+System.out.println(p.salary);
+
+	}
+
+
+}
