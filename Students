@@ -1,0 +1,12 @@
+package CoreJava;
+class Students extends Teacher{
+public void listen(){
+System.out.println("listining to teacher");
+}
+public static void main(String[] args){
+Students s =new Students();
+s.teach();
+s.listen();
+}
+
+}
