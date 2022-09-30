@@ -1,1 +1,6 @@
 
+package CoreJava;
+
+public class PermanentEmp extends Employee {
+
+}
